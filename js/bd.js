@@ -293,7 +293,7 @@ function history() {
 
 }
 function no() {
-
+  const more =MORE_MESSAGE;
   const tempOutput = 'Ok, lo entiendo. Puedes preguntarme "¿Cuáles son los conceptos básicos de BD?"'+PAUSE;
   +PAUSE+more;
   const speechOutput = tempOutput;
